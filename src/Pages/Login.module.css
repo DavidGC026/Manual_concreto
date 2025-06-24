@@ -1,0 +1,37 @@
+/* src/Pages/Login.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.form {
+  border: 2px solid #fff;
+  padding: 40px;
+  border-radius: 10px;
+  background: #ffffff11;
+}
+
+.input {
+  padding: 10px;
+  margin: 10px 0;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  width: 200px;
+}
+
+.button {
+  display: block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}

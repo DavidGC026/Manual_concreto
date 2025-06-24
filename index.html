@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      /* Reset básico para elementos raíz */
+      html, body, #root {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+    
+      /* Fix para iOS */
+      @supports (-webkit-touch-callout: none) {
+        body {
+          height: 100%;
+          min-height: -webkit-fill-available;
+        }
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Logo.png" />
+    <meta http-equiv="Content-Security-Policy" 
+      content="default-src 'self' blob: data:;
+              script-src 'self' 'unsafe-eval' https://unpkg.com;
+              worker-src 'self' blob:;
+              style-src 'self' 'unsafe-inline';
+              img-src 'self' data:;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Manual Detallado</title>
+  </head>
+  <body style="background: url('/src/Imagenes/Fondosl.png') no-repeat fixed; background-size: cover;"></body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+  </body>
+</html>
